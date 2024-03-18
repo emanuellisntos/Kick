@@ -5,10 +5,13 @@
 programa {
   funcao inicio() {
 
-    faca {
-      real n1, n2, som, sub, div, mult
-      inteiro op1, op2
+    faca { //Laço de repetição que permite o usuário voltar ou não ao início e relizar outra operação
 
+      //Variáveis
+      real n1, n2, som, sub, div, mult //números e operações
+      inteiro op1, op2 //opções
+
+      //Menu de escolha dos números
       escreva ("-------------CALCULADORA-------------\n\n")
       escreva ("Digite um número: \n")
       leia (n1)
@@ -18,6 +21,7 @@ programa {
 
       limpa()
 
+      //Menu de operações
       escreva ("---------------CALCULADORA---------------\n\n")
       escreva ("Agora escolha a operação a ser realizada: \n")
       escreva ("1. Soma \n")
@@ -25,10 +29,11 @@ programa {
       escreva ("3. Divisão \n")
       escreva ("4. Muliplicação \n")
       escreva ("5. Sair \n")
-      leia (op1)
+      leia (op1) //op1 = variável do menu de operações
 
       limpa()
 
+      //Condições para a operação escolhida
       escreva ("-------------CALCULADORA-------------\n\n")
       se (op1 == 1){
         som = n1 + n2
@@ -63,12 +68,13 @@ programa {
         escreva ("Operação inválida.")
       }
 
+      //Menu do laço de repetição
       escreva ("\n\nDeseja voltar ao início e realizar outra operação? \n")
       escreva ("1. Sim\n")
       escreva ("2. Não\n")
-      leia(op2)
+      leia(op2) //op2 = variável do laço de repetição
 
       limpa()
-    } enquanto (op2 != 2)
+    } enquanto (op2 != 2) //Final do laço de repetição. Se o usuário digitar 1 voltará ao início, se digitar 2 o laço será encerrado e o programa finalizado.
   }
 }
