@@ -5,7 +5,7 @@
 programa {
   funcao inicio() {
 
-    faca { //Laço de repetição que permite o usuário voltar ou não ao início e relizar outra operação
+    faca { //Laço de repetição que permite o usuário voltar (ou não, caso ele queira) ao início e relizar outra operação
 
       //Variáveis
       real n1, n2, som, sub, div, mult //números e operações
@@ -75,6 +75,6 @@ programa {
       leia(op2) //op2 = variável do laço de repetição
 
       limpa()
-    } enquanto (op2 != 2) //Final do laço de repetição. Se o usuário digitar 1 voltará ao início, se digitar 2 o laço será encerrado e o programa finalizado.
+    } enquanto (op2 != 2) //Final do laço de repetição, se o usuário digitar 1 voltará ao início, se digitar 2 o laço será encerrado e o programa finalizado
   }
 }
