@@ -2,6 +2,6 @@
 
 Desafio 2 da trilha de Tecnologia da Kick. 
 
-O objetivo do desafio era desenvolver uma calculadora com as operações básicas (soma, subtração, divisão, multiplicação).
+O objetivo do desafio era desenvolver uma calculadora com as operações básicas (soma, subtração, divisão e multiplicação).
 
 Desafio em dupla. Desenvolvedores: Emanuelli Santos e Diego Ramos.
