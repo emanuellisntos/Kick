@@ -27,7 +27,7 @@ programa {
       escreva ("1. Soma \n")
       escreva ("2. Subtração \n")
       escreva ("3. Divisão \n")
-      escreva ("4. Muliplicação \n")
+      escreva ("4. Multiplicação \n")
       escreva ("5. Sair \n")
       leia (op1) //op1 = variável do menu de operações
 
