@@ -4,7 +4,6 @@
 
 programa {
   funcao inicio() {
-
     faca { //Laço de repetição que permite o usuário voltar (ou não, caso ele queira) ao início e relizar outra operação
 
       //Variáveis
