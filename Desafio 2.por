@@ -70,8 +70,8 @@ programa {
 
       //Menu do laço de repetição
       escreva ("\n\nDeseja voltar ao início e realizar outra operação? \n")
-      escreva ("1. Sim\n")
-      escreva ("2. Não\n")
+      escreva ("1. Sim \n")
+      escreva ("2. Não \n")
       leia(op2) //op2 = variável do laço de repetição
 
       limpa()
