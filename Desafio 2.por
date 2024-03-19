@@ -56,7 +56,7 @@ programa {
 
       senao se (op1 == 4){
         mult = n1 * n2
-        escreva ("O valor da muliplicação dos números é: " + mult)
+        escreva ("O valor da multiplicação dos números é: " + mult)
       }
 
       senao se (op1 == 5){
