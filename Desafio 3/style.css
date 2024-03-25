@@ -1,0 +1,131 @@
+body {
+    background: rgb(49, 46, 46); 
+}
+
+nav {
+    background-color: rgb(36, 34, 34);
+    height: 60px;  
+}
+
+nav a {
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin-left: 50px;
+    margin-right: -40px;    
+} 
+
+nav a:hover {
+    color: rgb(122, 122, 129);
+}
+
+nav li {
+    display: inline;
+    margin: 10px;
+}
+
+
+.container {
+    display: flex;
+    flex-direction: column; 
+    margin-top: 110px;
+    align-items: center; 
+    background: rgb(49, 46, 46);   
+} 
+
+.container img {
+    width: 40%; 
+    height: 40%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.container input {
+    width: 40%;
+    height: 30px;
+    background: rgb(49, 46, 46);
+    border: 1px solid;
+    border-radius: 30px;
+    border-color: rgb(146, 142, 142);
+    color: white;
+    padding-left: 1%;
+    padding-right: 1%;
+    margin-bottom: 10px;
+}
+
+.botoes {
+    text-align: center;
+    background: rgb(49, 46, 46); 
+    margin-bottom: 200px;
+}
+
+li {
+    display: inline; 
+    margin: 5px;
+}
+
+button {
+    border-radius: 10px;
+    border-color: rgb(75, 72, 72);
+    border: 0px solid ;
+    background-color: rgb(75, 72, 72);
+    color: white;   
+    width: 150px;
+    height: 30px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    border: 1px solid white;
+}
+
+button:active {
+    border: 1px solid white;
+    background-color: rgb(43, 41, 41);
+}
+
+.container2 {
+    text-align: center;
+    color: white;
+}
+
+.container2 ul {
+    text-align: left;
+    margin-left: 20px;
+}
+
+.container2 h3 {
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+.container2 img {
+    margin-bottom: 30px;
+}
+
+.container2 a {
+    padding: 6px;
+    color: white;
+    text-decoration: none;
+    background-color: rgb(202, 68, 68);
+    border-radius: 70px;
+} 
+
+.container2 h1 {
+    font-size: bold;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.container2 a:hover {
+    background-color: rgb(218, 36, 36);
+}
+
+footer {
+    background-color: rgb(36, 34, 34);
+    height: 60px;  
+    color: white;
+    text-align: center;
+}
+
