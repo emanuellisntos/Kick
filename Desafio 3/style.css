@@ -118,6 +118,10 @@ button:active {
     margin-bottom: 10px;
 }
 
+.container2 p {
+    margin-bottom: 5px;
+}
+
 .container2 a:hover {
     background-color: rgb(218, 36, 36);
 }
