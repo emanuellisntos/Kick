@@ -1,5 +1,6 @@
 table {
     background-image: url(img/background.svg);
+    width: 100%;
 }
 
 .header {
@@ -47,15 +48,19 @@ table {
 }
 
 .main h1 {
-    margin-top: 50px;
-    margin-bottom: 10px;
+    margin-top: 20px;
+    margin-bottom: 60px;
     font-size: 25px;
     font-weight: bold;
 }
 
 .main p {
     font-size: 20px;   
-    line-height: 1.5;
+    margin-bottom: -5px;
+}
+
+.main iframe  {
+    margin-bottom: 60px;
 }
 
 .footer {
@@ -70,4 +75,3 @@ table {
     color: #ffffff;
     margin-top: 15px;
 }
-
