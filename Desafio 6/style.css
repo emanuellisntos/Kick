@@ -1,5 +1,5 @@
 table {
-    font-family: Arial, sans-serif;
+    background-image: url(img/background.svg);
 }
 
 .header {
@@ -63,6 +63,7 @@ table {
     background-color: #18191B;
     padding-top: 30px;
     padding-bottom: 30px;
+    font-family: Arial, sans-serif;
 }
 
 .footer p {
