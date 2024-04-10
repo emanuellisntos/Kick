@@ -37,8 +37,7 @@ table {
 
 .nav-box a:hover {
     padding: 10px;
-    color: #18191B;
-    background-color: #ffffff;
+    background-color: #DC0404;
 }
 
 .main {   
@@ -69,6 +68,11 @@ table {
     padding-top: 30px;
     padding-bottom: 30px;
     font-family: Arial, sans-serif;
+}
+
+.footer p {
+    color: #ffffff;
+    margin-top: 15px;
 }
 
 .footer p {
