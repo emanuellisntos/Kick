@@ -100,12 +100,12 @@ body {
         display: none;
     }
 
-    .main iframe {
+    .main-section-trailer iframe {
         width: 350px;
         height: 250px;
     }
 
-    .main img {
+    .main-section-poster img {
         width: 360px;
         height: 450px;
     }
