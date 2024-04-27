@@ -1,0 +1,103 @@
+body {
+    font-family: Arial, sans-serif;   
+}
+
+body a {
+    text-decoration: none;
+    color: #000;
+}
+
+.header-nav {
+    display: flex;
+    align-items:  center;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    
+}
+
+#logo {
+    width: 150px;
+    height: 50px;
+}
+
+.header-nav li {
+    display: inline;
+    margin: 20px;
+}
+
+#lupa {
+    width: 25px;
+    height: 20px;
+    
+}
+
+#botao-entrar {
+    background-color: #BF1212;
+    padding: 15px;
+    color: #fff;
+}
+
+.main-nav {
+    display: flex;   
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.main-nav li {
+    display: inline;
+    margin: 150px;
+}
+
+main hr {
+    display: inline;
+    width: 10px;
+    transform: rotate(90deg);
+}
+
+.container-artigos {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.container-artigos img {
+    margin: 20px;
+}
+
+@media screen and (max-width: 3840px) {
+    hr {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 920px) {
+    .header-nav {
+        flex-direction: column;
+    }
+
+    .header-nav hr {
+        display: block;
+        width: 10px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .header-nav {
+        flex-direction: column;
+    }
+
+    .header-nav hr {
+        display: block;
+        width: 10px;
+    }
+
+    .usuario-nav {
+        border: 2px solid #BF1212;
+        padding: 30px;
+    }
+
+    .main-nav li {
+        margin: 30px;
+    }
+}
