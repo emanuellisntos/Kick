@@ -7,6 +7,10 @@ body a {
     color: #000;
 }
 
+a:hover {
+    color: #BF1212;
+}
+
 .header-nav {
     display: flex;
     align-items:  center;
@@ -27,8 +31,7 @@ body a {
 
 #lupa {
     width: 25px;
-    height: 20px;
-    
+    height: 20px;   
 }
 
 #botao-entrar {
@@ -73,31 +76,48 @@ main hr {
 
 @media screen and (max-width: 920px) {
     .header-nav {
+        display: flex;
         flex-direction: column;
     }
 
-    .header-nav hr {
-        display: block;
-        width: 10px;
-    }
-}
-
-@media screen and (max-width: 600px) {
-    .header-nav {
-        flex-direction: column;
-    }
-
-    .header-nav hr {
-        display: block;
-        width: 10px;
+    .header-nav-menu {
+        order: 2;
     }
 
     .usuario-nav {
         border: 2px solid #BF1212;
         padding: 30px;
+        order: 1;
     }
 
     .main-nav li {
-        margin: 30px;
+        margin: 10px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .header-nav {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .header-nav hr {
+        display: block;
+        width: 10px;
+    }
+
+    .header-nav-menu {
+        text-align: center;
+        order: 2;
+    }
+
+    .usuario-nav {
+        border: 2px solid #BF1212;
+        padding: 30px;
+        order: 1;
+    }
+
+    .main-nav li {
+        margin: 10px;
     }
 }
