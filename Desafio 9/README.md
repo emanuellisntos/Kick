@@ -3,6 +3,7 @@
 Criação de um menu dropdown responsivo.
 
 <b>Tecnologias usadas:</b> HTML e CSS.
+
 <br>
 <b>Resultado:</b>
 
