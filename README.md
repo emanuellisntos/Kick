@@ -1,3 +1,3 @@
-# Kick - Módulo 1
+# Kick - Módulos I e II
 
-Repositório criado para os desafios/atividades da trilha de tecnologia da Kick.
+Repositório criado para os desafios da trilha de tecnologia da Kick durante os módulos I e II.
