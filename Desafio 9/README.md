@@ -1,6 +1,6 @@
 <h1>Desafio 9</h1>
 
-Criação de um menu dropdown responsivo.
+<b>Objetivo:</b> Criação de um menu dropdown responsivo.
 
 <b>Tecnologias usadas:</b> HTML e CSS.
 
