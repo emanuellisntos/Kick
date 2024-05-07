@@ -1,6 +1,6 @@
 <h1>Desafio 8</h1>
 
-Utilização dos conceitos de flexbox para recriar o site da IGN Brasil. 
+<b>Objetivo:</b> Utilização dos conceitos de flexbox para recriar o site da IGN Brasil. 
 
 <b>Tecnologias usadas:</b> HTML e CSS.
 
